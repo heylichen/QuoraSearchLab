@@ -12,7 +12,7 @@ public class RedisClient {
   
   public void setup() { 
   
-    //连接redis服务器，虚拟机的ip地址192.168.20.128:6379 
+    //连接redis服务器，虚拟机的ip地址192.168.20.128:6379 11
   
     jedis = new Jedis("192.168.192.128",6479);
   
